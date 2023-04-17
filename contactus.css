@@ -299,3 +299,35 @@ footer img[src*='telegram']{
     display: flex;
     gap: 1rem;
 }
+
+@media (max-width: 1024px){
+    .flex a{
+        font-size: 26px;
+    }
+    .o{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 84px;
+        color: #FFDC60;
+    }
+    
+    .s{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 84px;
+        color: #0064E9;
+    }
+
+    .flex{
+    
+        display: flex;
+        padding-left: 0;
+         padding: 0 1.3rem;
+        gap: 0.5rem;
+        margin-bottom: 2.875rem;
+    }
+}
