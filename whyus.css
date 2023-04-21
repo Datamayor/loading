@@ -202,9 +202,8 @@ hr{
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .company-prospect{
-    text-align: center;
-    margin: 4rem auto;
-    max-width: 500px;
+    text-align: left;
+    margin: 4rem ;
     margin-bottom: 102px;
     
     
@@ -224,17 +223,93 @@ hr{
 
 #checks p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 48px;
-width: 50rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #000000;
 }
+
+.img{
+    width: 90px;
+height: 90px;
+box-shadow: 0px 8px 40px -2px rgba(6, 12, 59, 0.08);
+border-radius: 6px;
+}
+
+.wbackground{
+    background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+    background-size: cover;
+    height: 60vh;
+ 
+}
+
+
+
+.cont{
+    margin: 4rem 19rem ;
+    padding-top: 6rem;
+}
+
+.cont p {
+    margin-top: 2rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFDC60;
+margin-bottom: 4rem;
+}
+
+.cont h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 84px;
+width: 48rem;
+
+color: #FFFFFF;
+margin-bottom: 4rem;
+}
+
+.cont button{
+
+        color: #004AAD;
+        background-color: #ffffff;
+        padding: 1.75rem 2.5rem ;
+        border: none;
+        border-radius: 0.25rem;
+        justify-content: center;
+        align-items: center;
+
+    
+    
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .cont button:hover{
+        color: #004AAD;
+        background-color: #004AAD;
+        border: 1px solid #ffffff;
+        /* box-shadow: inset 0 0 0.25em 0 #004AAD,
+        0 0 0.5em 0 #004AAD; */
+        transition: 1s;
+    }
 
 
 /* FOOTER */
 footer{
-    margin: 4rem auto;
+    margin: 4rem ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
