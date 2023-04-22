@@ -236,6 +236,7 @@ hr{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
     height: 50vh;
+    margin-bottom: 8rem;
  
 }
 
@@ -310,7 +311,7 @@ text-align: left;
 
 /* FOOTER */
 footer{
-    padding: 0 8rem;
+    padding: 8rem 8rem;
     margin: 4rem auto;
     display: flex;
     justify-content: space-between;
