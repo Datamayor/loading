@@ -240,10 +240,20 @@ box-shadow: 0px 8px 40px -2px rgba(6, 12, 59, 0.08);
 border-radius: 6px;
 }
 
+.back{
+    position: absolute;
+    right: 4rem;
+    z-index: -1;
+}
+
+.bac{
+    width: 754px;
+}
+
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
  
 }
 
@@ -251,11 +261,11 @@ border-radius: 6px;
 
 .cont{
     margin: 4rem 19rem ;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 .cont p {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -266,7 +276,7 @@ line-height: 33px;
 letter-spacing: 0.05em;
 
 color: #FFDC60;
-margin-bottom: 4rem;
+margin-bottom: 2rem;
 }
 
 .cont h1{
@@ -278,7 +288,7 @@ line-height: 84px;
 width: 48rem;
 
 color: #FFFFFF;
-margin-bottom: 4rem;
+margin-bottom: 2rem;
 }
 
 .cont button{
