@@ -232,14 +232,15 @@ hr{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
     height: 50vh;
-    margin-bottom: 8rem;
+    padding: 0 2rem;
  
 }
 
 
 
 .cont{
-    margin: 4rem 19rem ;
+    width: 60rem;
+    margin: 4rem auto ;
     padding-top: 3rem;
 }
 
@@ -407,4 +408,46 @@ footer{
         width: 30px;
         height: 30px;
     }
+}
+
+@media (max-width: 1024px){
+
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        background-size: cover;
+        height: 35vh;
+     
+    }
+    
+
+    
+    .cont{
+        width: 40rem;
+        margin: 4rem auto ;
+        padding-top: 3rem;
+    }
+    
+    .cont p {
+        margin-top: 0.2rem;
+    font-size: 12px;
+    line-height: 33px;
+
+    margin-bottom: 2rem;
+    }
+    
+    .cont h1{
+    font-size: 26px;
+    line-height: 44px;
+    width: 24rem;
+    margin-bottom: 2rem;
+    }
+    
+    .cont button{
+            padding: 1.25rem 1.5rem ;
+           
+        }
+
+        footer{
+            padding: 2.5rem;
+        }
 }
