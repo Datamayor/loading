@@ -382,46 +382,7 @@ footer img[src*='telegram']{
     display: none;
 }
 
-@media screen and (max-width: 650px) {
-    hr{
-        display: none;
-    }
-    h2{
-        font-size: 26px;
-    }
-    .company-prospect > p{
-        font-size: 1.125rem;
-    }
-    .company-prospect{
-        margin: 2rem auto;
-        max-width: 500px;
-        margin-bottom: 50px;
-    }
-    
 
-    /* FOOTER */
-    .be-social-section a{
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-    .be-social-section{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .s-handles > p{
-        display: contents;
-    }
-    img[src*='Leadly']{
-        width: 79px;
-        height: 22px;
-    }
-    .be-social-section img{
-        width: 30px;
-        height: 30px;
-    }
-}
 
 @media (max-width: 1024px){
     .company-prospect{
@@ -483,5 +444,91 @@ footer img[src*='telegram']{
             background-color: white;
             padding: 4rem;
             z-index: -1;
+        }
+}
+@media screen and (max-width: 650px) {
+    hr{
+        display: none;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .company-prospect > p{
+        font-size: 1.125rem;
+    }
+    .company-prospect{
+        margin: 2rem auto;
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+    
+
+    /* FOOTER */
+    .be-social-section a{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .be-social-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .s-handles > p{
+        display: contents;
+    }
+    img[src*='Leadly']{
+        width: 79px;
+        height: 22px;
+    }
+    .be-social-section img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        background-size: cover;
+        height: 40vh;
+     
+    }
+    
+    
+    
+    .cont{
+        width: 20rem;
+        margin: 1rem auto ;
+        padding-top: 3rem;
+    }
+    
+    .cont p {
+        margin-top: 0.2rem;
+    font-size: 12px;
+    line-height: 33px;
+
+    margin-bottom: 2rem;
+    }
+    
+    .cont h1{
+    font-size: 20px;
+    line-height: 44px;
+    width: 14rem;
+    margin-bottom: 1rem;
+    }
+    
+    .cont button{
+            padding: 0.35rem 0.35rem ;
+            font-size: 4px;
+           
+        }
+
+        footer{
+            padding: 1.5rem;
+        }
+        .bac1{
+           display: none;
+        }
+        .bac2{
+          display: none;
         }
 }

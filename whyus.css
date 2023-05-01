@@ -355,6 +355,53 @@ footer img[src*='telegram']{
 .s-handles > p{
     display: none;
 }
+
+
+
+@media (max-width: 1024px){
+
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        background-size: cover;
+        height: 35vh;
+     
+    }
+    
+    .bac{
+        width: 354px;
+    }
+    
+    .cont{
+        width: 40rem;
+        margin: 4rem auto ;
+        padding-top: 3rem;
+    }
+    
+    .cont p {
+        margin-top: 0.2rem;
+    font-size: 12px;
+    line-height: 33px;
+
+    margin-bottom: 2rem;
+    }
+    
+    .cont h1{
+    font-size: 26px;
+    line-height: 44px;
+    width: 24rem;
+    margin-bottom: 2rem;
+    }
+    
+    .cont button{
+            padding: 1.25rem 1.5rem ;
+           
+        }
+
+        footer{
+            padding: 2.5rem;
+        }
+}
+
 @media screen and (max-width: 650px) {
     hr{
         display: none;
@@ -403,25 +450,19 @@ footer img[src*='telegram']{
         width: 30px;
         height: 30px;
     }
-}
-
-
-@media (max-width: 1024px){
 
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         background-size: cover;
-        height: 35vh;
+        height: 40vh;
      
     }
     
-    .bac{
-        width: 354px;
-    }
+    
     
     .cont{
-        width: 40rem;
-        margin: 4rem auto ;
+        width: 20rem;
+        margin: 1rem auto ;
         padding-top: 3rem;
     }
     
@@ -434,18 +475,41 @@ footer img[src*='telegram']{
     }
     
     .cont h1{
-    font-size: 26px;
+    font-size: 20px;
     line-height: 44px;
-    width: 24rem;
-    margin-bottom: 2rem;
+    width: 14rem;
+    margin-bottom: 1rem;
     }
     
     .cont button{
-            padding: 1.25rem 1.5rem ;
+            padding: 0.35rem 0.35rem ;
+            font-size: 4px;
            
         }
 
         footer{
-            padding: 2.5rem;
+            padding: 0.1rem;
+        }
+        #checks p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 24px;
+            /* identical to box height */
+            
+            
+            color: #000000;
+        }
+        
+        .img{
+            width: 65px;
+        height: 65px;
+        box-shadow: 0px 8px 40px -2px rgba(6, 12, 59, 0.08);
+        border-radius: 6px;
+        }
+
+        .bac{
+           display: none;
         }
 }

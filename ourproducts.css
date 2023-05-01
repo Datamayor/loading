@@ -364,6 +364,50 @@ footer{
     display: none;
 }
 
+
+@media (max-width: 1024px){
+
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        background-size: cover;
+        height: 35vh;
+     
+    }
+    
+
+    
+    .cont{
+        width: 40rem;
+        margin: 4rem auto ;
+        padding-top: 3rem;
+    }
+    
+    .cont p {
+        margin-top: 0.2rem;
+    font-size: 12px;
+    line-height: 33px;
+
+    margin-bottom: 2rem;
+    }
+    
+    .cont h1{
+    font-size: 26px;
+    line-height: 44px;
+    width: 24rem;
+    margin-bottom: 2rem;
+    }
+    
+    .cont button{
+            padding: 1.25rem 1.5rem ;
+           
+        }
+
+        footer{
+            padding: 2.5rem;
+        }
+}
+
+
 @media screen and (max-width: 650px) {
     hr{
         display: none;
@@ -408,22 +452,18 @@ footer{
         width: 30px;
         height: 30px;
     }
-}
-
-@media (max-width: 1024px){
-
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         background-size: cover;
-        height: 35vh;
+        height: 40vh;
      
     }
     
-
+    
     
     .cont{
-        width: 40rem;
-        margin: 4rem auto ;
+        width: 20rem;
+        margin: 1rem auto ;
         padding-top: 3rem;
     }
     
@@ -436,18 +476,19 @@ footer{
     }
     
     .cont h1{
-    font-size: 26px;
+    font-size: 20px;
     line-height: 44px;
-    width: 24rem;
-    margin-bottom: 2rem;
+    width: 14rem;
+    margin-bottom: 1rem;
     }
     
     .cont button{
-            padding: 1.25rem 1.5rem ;
+            padding: 0.35rem 0.35rem ;
+            font-size: 4px;
            
         }
 
         footer{
-            padding: 2.5rem;
+            padding: 1.5rem;
         }
 }
