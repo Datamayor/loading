@@ -9,6 +9,11 @@
     box-sizing: inherit;
 }
 
+#Leadly_logo img{
+    width: 79px;
+    height: 79px;
+}
+
 :root{
     --black: hsl(0, 2%, 8%);
 }
@@ -355,6 +360,9 @@ footer{
 }
 #top{
     margin-bottom: 22px;
+        width: 79px;
+        height: 79px;
+    
 }
 .leader a,
 .leader p {
@@ -479,7 +487,7 @@ footer img[src*='telegram']{
     }
     img[src*='Leadly']{
         width: 79px;
-        height: 22px;
+        height: 79px;
     }
     .be-social-section img{
         width: 30px;
