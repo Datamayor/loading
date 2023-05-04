@@ -12,12 +12,20 @@
 :root{
     --black: hsl(0, 2%, 8%);
 }
+#headline{
+    text-align: center;
+}
 h3{
     font-weight: 700;
     font-size: 0.875rem;
     color: #004AAD;
     padding-bottom: 8px;
 }
+#Leadly_logo img{
+    width: 79px;
+    height: 79px;
+}
+
 h2{
     font-weight: 900;
     font-size: 2rem;
@@ -200,13 +208,21 @@ hr{
 }
 /* SECTION C PROSPECTTNG / PROSPECTING PLUS / BOOK A CALL & QUALIFIED LEADS */
 
-#headline h2{
-    text-align: center;
-    margin-top: 42px;
-    margin-bottom: 62px;
-}
 
+.wha{
+    text-align: center;
+    margin-block: 40px;
+}
+.section-c-{
+    position: relative;
+    /* background-image: url(Images/str.svg); */
+}
+img[src*=str]{
+    position: absolute;
+    width: 100%;
+}
 .section-c{
+    
     margin: 1rem  auto;
     display: flex;
     flex: 1;
@@ -215,9 +231,17 @@ hr{
     line-height: 1.6;
     flex-flow: row;
     margin-bottom: 7rem;
+
+    max-width: 1440px;
+    width: 90%;
 }
-.last{
-    margin-bottom: 285px;
+
+.section-c h3{
+    color: #FFDC60;
+}
+
+.section-c h2{
+    color: #004AAD;
 }
 .section-c-left > p:first-of-type{
     padding-bottom: 40px;
@@ -227,7 +251,33 @@ hr{
     font-size: 1.1rem;
     flex: 1;
 }
+.company-prospect p{
+    color: #4E6269;
+    
+}
+/*.section-c-right{
+   flex: 1;
+   max-width: 500px ;
+   height: auto;
+}*/
+.section-c-right img{
+    max-width: 99%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+#checks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    
+    
+}
 
+#checks i{
+    color: #004AAD;
+}
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
@@ -296,34 +346,6 @@ margin-bottom: 2rem;
         transition: 1s;
     }
 
-.company-prospect p{
-    color: #4E6269;
-    
-}
-/*.section-c-right{
-   flex: 1;
-   max-width: 500px ;
-   height: auto;
-}*/
-.section-c-right img{
-    max-width: 99%;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 1rem 0;
-}
-#checks{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 12px;
-    
-    
-}
-
-#checks i{
-    color: #004AAD;
-}
-
 
 
 /* FOOTER */
@@ -337,6 +359,9 @@ footer{
 }
 #top{
     margin-bottom: 22px;
+        width: 79px;
+        height: 79px;
+    
 }
 .leader a,
 .leader p {

@@ -18,6 +18,11 @@ h3{
     color: #004AAD;
     padding-bottom: 8px;
 }
+#Leadly_logo img{
+    width: 79px;
+    height: 79px;
+}
+
 h2{
     font-weight: 900;
     font-size: 2rem;
@@ -329,6 +334,10 @@ footer{
 }
 #top{
     margin-bottom: 22px;
+        width: 79px;
+        height: 79px;
+    
+    
 }
 .leader a,
 .leader p {

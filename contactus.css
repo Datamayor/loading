@@ -25,6 +25,10 @@ letter-spacing: 0.05em;
 
 color: #0064E9;
 }
+#Leadly_logo img{
+    width: 79px;
+    height: 79px;
+}
 h3{
     font-weight: 700;
     font-size: 0.875rem;
@@ -345,6 +349,8 @@ footer{
 }
 #top{
     margin-bottom: 22px;
+        width: 79px;
+        height: 79px;
 }
 .leader a,
 .leader p {
