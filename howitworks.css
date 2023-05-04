@@ -476,8 +476,13 @@ footer{
            
         }
 
+        
         footer{
             padding: 0.8rem;
+            display: block;
+            margin: 2rem auto;
+            width: 100%;
+            padding: auto;
         }
 
         .inbox{

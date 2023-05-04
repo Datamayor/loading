@@ -443,3 +443,69 @@ footer img[src*='telegram']{
            
         }
     }
+
+    @media screen and (max-width: 650px) {
+        
+    
+        .wbackground{
+            background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+            background-size: cover;
+            height: 40vh;
+         
+        }
+        
+        
+        
+        .cont{
+            width: 20rem;
+            margin: 1rem auto ;
+            padding-top: 3rem;
+        }
+        
+        .cont p {
+            margin-top: 0.2rem;
+        font-size: 12px;
+        line-height: 33px;
+    
+        margin-bottom: 2rem;
+        }
+        
+        .cont h1{
+        font-size: 20px;
+        line-height: 44px;
+        width: 14rem;
+        margin-bottom: 1rem;
+        }
+        
+        .cont button{
+                padding: 0.35rem 0.35rem ;
+                font-size: 4px;
+               
+            }
+    
+            footer{
+                padding: 0.8rem;
+                display: block;
+                margin: 2rem auto;
+                width: 100%;
+                padding: auto;
+            }
+    
+            .inbox{
+                text-align: left;
+                position: relative;
+                top: 01.3rem;
+                width: 34px;
+                margin: 0.9rem  1.9rem;
+                margin-bottom: 0rem;
+            }
+    
+            .main-info > p{
+                background-color: #EBF1F9;
+                padding: 1.625rem;
+                padding-bottom: 1.5rem;
+                width: 600px;
+                font-weight: 600;
+                
+            }
+    }
