@@ -385,6 +385,10 @@ footer{
         font-size: 1.625rem;
         padding-bottom: 0px;
     }
+    main{
+        margin-bottom: 5rem;
+        
+    }
     .main-info{
         display: none;
     }
@@ -394,14 +398,16 @@ footer{
         align-items: center;
         gap: 1rem;
         margin-block: 1.125rem;
-        
+       
     }
     .main-inf > p{
-        text-align: center;
+        text-align: left;
         background-color: #EBF1F9;
         width: 292px;
-        padding: 0.625rem;
+        padding: 0  0.11rem;
         font-weight: 600;
+        font-size: 10px;
+        padding-bottom: 2rem;
         
     }
     
