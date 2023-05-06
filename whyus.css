@@ -274,10 +274,10 @@ border-radius: 6px;
 .cont p {
     margin-top: 1rem;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
 /* identical to box height */
 
 letter-spacing: 0.05em;
