@@ -255,9 +255,10 @@ margin-left: 4rem;
 
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
-    background-size: cover;
+    padding: 2rem;
+    /* background-size: cover;
     height: 50vh;
-    margin-bottom: 8rem;
+    margin-bottom: 8rem; */
  
 }
 
@@ -339,6 +340,7 @@ text-align: left;
 /* FOOTER */
 footer{
     padding: 8rem 8rem;
+    max-width: 1440px;
     margin: 4rem auto;
     display: flex;
     justify-content: space-between;

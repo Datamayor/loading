@@ -212,6 +212,7 @@ hr{
 .wha{
     text-align: center;
     margin-block: 40px;
+    font-size: 2rem;
 }
 .section-c-{
     position: relative;
@@ -280,23 +281,24 @@ img[src*=str]{
 }
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
-    background-size: cover;
+    padding-block: 2rem;
+    /* background-size: cover;
     height: 50vh;
-    padding: 0 2rem;
+    padding: 0 2rem; */
  
 }
 
 
 
 .cont{
-    width: 60rem;
+    max-width: 60rem;
     margin: 4rem auto ;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
 }
 
 .cont p {
-    margin-top: 1rem;
-    font-family: 'Poppins';
+margin-top: 1rem;
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
@@ -310,12 +312,12 @@ margin-bottom: 2rem;
 }
 
 .cont h1{
-    font-family: 'Poppins';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 84px;
-width: 48rem;
+max-width: 48rem;
 
 color: #FFFFFF;
 margin-bottom: 2rem;
@@ -356,6 +358,7 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
+    max-width: 1440px;
 }
 #top{
     margin-bottom: 22px;
@@ -394,15 +397,15 @@ footer{
 
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
-        background-size: cover;
-        height: 35vh;
+        /* background-size: cover;
+        height: 35vh; */
      
     }
     
 
     
     .cont{
-        width: 40rem;
+        max-width: 40rem;
         margin: 4rem auto ;
         padding-top: 3rem;
     }
@@ -418,7 +421,7 @@ footer{
     .cont h1{
     font-size: 26px;
     line-height: 44px;
-    width: 24rem;
+    max-width: 24rem;
     margin-bottom: 2rem;
     }
     
@@ -470,8 +473,8 @@ footer{
         display: contents;
     }
     img[src*='Leadly']{
-        width: 79px;
-        height: 22px;
+        width: 30px;
+        height: 30px;
     }
     .be-social-section img{
         width: 30px;
@@ -479,36 +482,37 @@ footer{
     }
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
-        background-size: cover;
-        height: 40vh;
+        /* background-size: cover;
+        height: 40vh; */
      
     }
     
     
     
     .cont{
-        width: 20rem;
+        max-width: 20rem;
         margin: 1rem auto ;
-        padding-top: 3rem;
+        padding-block: 3rem;
+        padding-inline: 1rem;
     }
     
     .cont p {
-        margin-top: 0.2rem;
+    /* margin-top: 0.2rem; */
     font-size: 12px;
-    line-height: 33px;
+    /* line-height: 33px;
 
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; */
     }
     
     .cont h1{
     font-size: 20px;
     line-height: 44px;
-    width: 14rem;
-    margin-bottom: 1rem;
+    max-width: 14rem;
+    /* margin-bottom: 1rem; */
     }
     
     .cont button{
-            padding: 0.35rem 0.35rem ;
+            padding: 0.85rem;
             font-size: 4px;
            
         }

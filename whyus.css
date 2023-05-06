@@ -258,8 +258,8 @@ border-radius: 6px;
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
-    height: 50vh;
-    padding: 0 2rem;
+    /* height: 50vh; */
+    padding-block: 2rem;
  
 }
 
@@ -326,7 +326,8 @@ margin-bottom: 2rem;
 
 /* FOOTER */
 footer{
-    margin: 4rem ;
+    margin: 4rem auto;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
