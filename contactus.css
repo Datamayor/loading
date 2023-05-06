@@ -219,8 +219,7 @@ hr{
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
-    height: 50vh;
-    padding: 0 2rem;
+    padding-block: 2rem;
 }
 
 
@@ -340,7 +339,7 @@ line-height: 84px;
 
 /* FOOTER */
 footer{
-    padding: 8rem 8rem;
+    padding: 4rem 8rem;
     margin: 4rem auto;
     display: flex;
     justify-content: space-between;
@@ -410,8 +409,7 @@ footer img[src*='telegram']{
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         background-size: cover;
-        height: 35vh;
-        padding: 0 2rem;
+        padding-block: 3rem;
      
     }
     
@@ -419,8 +417,8 @@ footer img[src*='telegram']{
     
     .cont{
         width: 40rem;
-        margin: 4rem auto ;
-        padding-top: 3rem;
+        margin: auto ;
+    
     }
     
     .cont p {
@@ -447,7 +445,7 @@ footer img[src*='telegram']{
     @media screen and (max-width: 650px) {
         
     
-        .wbackground{
+        /* .wbackground{
             background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
             background-size: cover;
             height: 40vh;
@@ -507,5 +505,94 @@ footer img[src*='telegram']{
                 width: 600px;
                 font-weight: 600;
                 
-            }
+            } */
+
+             hr{
+        display: none;
+    }
+    h2{
+        font-size: 26px;
+    }
+    #headline h2{
+        font-size: 26px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    .section-c{
+        gap: 0rem;
+        margin: 2rem;
+    }
+    .section-c img{
+        display: none;
+        
+    }
+
+    /* FOOTER */
+    .be-social-section a{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .be-social-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .s-handles > p{
+        display: contents;
+    }
+    img[src*='Leadly']{
+        width: 30px;
+        height: 30px;
+    }
+    .be-social-section img{
+        width: 30px;
+        height: 30px;
+    }
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        /* background-size: cover;
+        height: 40vh; */
+     
+    }
+    
+    
+    
+    .cont{
+        max-width: 20rem;
+        margin: 1rem auto ;
+        padding-block: 3rem;
+        padding-inline: 1rem;
+    }
+    
+    .cont p {
+    /* margin-top: 0.2rem; */
+    font-size: 12px;
+    /* line-height: 33px;
+
+    margin-bottom: 2rem; */
+    }
+    
+    .cont h1{
+    font-size: 20px;
+    line-height: 44px;
+    max-width: 14rem;
+    /* margin-bottom: 1rem; */
+    }
+    
+    .cont button{
+            padding: 0.85rem;
+            font-size: 4px;
+           
+        }
+
+        
+        footer{
+            padding: 0.8rem;
+            display: block;
+            margin: 2rem auto;
+            width: 100%;
+            padding: auto;
+        }
     }
