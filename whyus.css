@@ -140,6 +140,8 @@ ul{
 .mobile-nav-toggle{
     display: none;
 }
+
+
 @media (max-width: 1024px){
 
     #reg{
@@ -472,7 +474,7 @@ footer img[src*='telegram']{
     
     .cont{
         width: 20rem;
-        margin:  auto ;
+        margin: 1rem auto ;
       
     }
     

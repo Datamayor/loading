@@ -200,7 +200,6 @@ ul{
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         background-size: cover;
-        height: 35vh;
      
     }
     
@@ -502,15 +501,14 @@ footer img[src*='telegram']{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         /* background-size: cover;
         height: 40vh; */
-     
+     padding-block: 2rem;
     }
     
     
     
     .cont{
         width: 20rem;
-        margin: 1rem auto ;
-        padding-top: 3rem;
+        margin:  auto ;
     }
     
     .cont p {
