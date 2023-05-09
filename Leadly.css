@@ -587,7 +587,7 @@ img[src*=str]{
     margin: 0 auto;
 }
 .toggle-container{
-    margin: 0.1rem auto;
+    margin: 2.1rem auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
