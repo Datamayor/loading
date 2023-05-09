@@ -671,10 +671,10 @@ img[src*=str]{
     border-radius: 1rem;   
     box-sizing: border-box;
     /* border: 1px solid #004AAD; */
-    overflow: hidden;
+    /* overflow: hidden;
     cursor: pointer;
     
-} 
+}  */
 .okra p{
     color: #4E6269;
 }
@@ -769,15 +769,30 @@ footer img[src*='telegram']{
 
 @media screen and (max-width: 650px) {
     #section-a{
-        margin: 3rem  auto;
+        margin: 3rem auto ;
+        display: block;
         width: 100%;
+        max-width: 300px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
     #Leadly_logo img{
-        width: 79px;
-        height: 79px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #Leadly-Solution button{
+        padding: 1rem 2.75rem;
+    }
+
+    .business h1{
+        font-family: Poppins;
+        font-weight: 900;
+        font-size: 30px;
+        padding-bottom: 2rem;
+        line-height: 45px;
+    
     }
 
     .business > h1{
