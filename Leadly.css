@@ -823,9 +823,14 @@ footer img[src*='telegram']{
     .WAW{
         display: contents;
         text-align: center;
+      
     }
     .WAW P{
+        margin: auto;
         margin-block: 1.5rem;
+        width: 100%;
+        max-width: 330px;
+
     }
     .WAW button{
        display: block;
