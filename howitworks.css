@@ -583,38 +583,72 @@ footer{
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
         padding: 0 4rem;
-        background-size: cover;
         padding-block: 2rem;
+        /* background-size: cover;
+        height: 50vh;
+        padding: 0 2rem; */
+     
     }
     
     
     
     .cont{
-        width: 20rem;
-        margin: auto ;
+        max-width: 60rem;
+        margin: 4rem auto ;
+        /* padding-top: 3rem; */
     }
     
     .cont p {
-        margin-top: 0.2rem;
-    font-size: 12px;
+    margin-top: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
     line-height: 33px;
-
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFDC60;
     margin-bottom: 2rem;
     }
     
     .cont h1{
-    font-size: 20px;
-    line-height: 44px;
-    width: 14rem;
-    margin-bottom: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 84px;
+    max-width: 48rem;
+    
+    color: #FFFFFF;
+    margin-bottom: 2rem;
     }
     
     .cont button{
-            padding: 0.35rem 0.35rem ;
-            font-size: 4px;
-           
+    
+            color: #004AAD;
+            background-color: #ffffff;
+            padding: 1.75rem 2.5rem ;
+            border: none;
+            border-radius: 0.25rem;
+            justify-content: center;
+            align-items: center;
+    
+        
+        
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
         }
-
+        .cont button:hover{
+            color: #004AAD;
+            background-color: #004AAD;
+            border: 1px solid #ffffff;
+            /* box-shadow: inset 0 0 0.25em 0 #004AAD,
+            0 0 0.5em 0 #004AAD; */
+            transition: 1s;
+        }
         footer{
             padding: 0.1rem 3rem;
             display: block;

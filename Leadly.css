@@ -726,6 +726,36 @@ img[src*=str]{
     padding: 1rem;
     border-radius: 20px;
 }
+.leadly-more{
+    background-color: #ebecec;
+}
+.leadly-extras{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-inline: 3%;
+    padding-block: 5rem;
+    gap: 1rem;
+    
+}
+.leadly-extra{
+    max-width: 350px;
+    justify-items: flex-start;
+}
+.leadly-extra *{
+    margin-bottom: 1.2rem;
+}
+.leadly-extra a{
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+    gap: 5px;
+}
+.leadly-extra h3{
+    font-size: 18px;
+}
 
 /* FOOTER */
 footer{
