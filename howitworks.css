@@ -582,6 +582,7 @@ footer{
 
     .wbackground{
         background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        padding: 0 4rem;
         background-size: cover;
         padding-block: 2rem;
     }
