@@ -738,6 +738,7 @@ img[src*=str]{
     padding-inline: 3%;
     padding-block: 5rem;
     gap: 1rem;
+    margin-bottom: 1rem;
     
 }
 .leadly-extra{
