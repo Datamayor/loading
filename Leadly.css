@@ -737,7 +737,7 @@ img[src*=str]{
     justify-content: flex-start;
     padding-inline: 3%;
     padding-block: 5rem;
-    gap: 1rem;
+    gap: 6rem;
     margin-bottom: 1rem;
     
 }
