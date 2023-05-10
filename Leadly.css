@@ -58,9 +58,9 @@ a {
 /*HEADER SECTON*/
 
 header{
-    max-width: 1440px;
-    margin: 3rem auto;
-    width: 90%;
+    /* max-width: 1440px; */
+    margin: 2rem auto;
+    width: 95%;
 }
 .nav_items{
     display: flex;
@@ -334,6 +334,7 @@ ul{
 
     max-width: 1440px;
     width: 100%;
+    padding-inline: 2%;
     
 
 }
@@ -747,7 +748,7 @@ footer{
 .leader p {
     padding-bottom: 12px;
     color: #4E6269;
-    max-width: 250px;
+    max-width: 170px;
     
 }
 .leader input{
@@ -768,16 +769,33 @@ footer img[src*='telegram']{
 .s-handles > p{
     display: none;
 }
+@media (max-width: 1367px) {
+    .business h1{
+        font-size: 3rem;
+    }    
+    .info p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image img{
+        visibility: hidden;
+    }
+}
 
 @media screen and (max-width: 650px) {
     #section-a{
         margin: 3rem auto ;
         display: block;
         width: 100%;
-        max-width: 300px;
+        max-width: 400px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+    }
+    #section-a .wrapper{
+        display: none;
     }
     #Leadly_logo img{
         width: 50px;
@@ -832,6 +850,7 @@ footer img[src*='telegram']{
         margin-block: 1.5rem;
         width: 100%;
         max-width: 330px;
+        text-align: justify;
 
     }
     .WAW button{
@@ -910,9 +929,9 @@ footer img[src*='telegram']{
 
     
     footer{
-        padding: 0.1rem 3rem;
+        padding: 0.1rem 1rem;
         display: block;
-        margin: 2rem auto;
+        margin: 1rem auto;
         width: 100%;
         padding: auto;
     }

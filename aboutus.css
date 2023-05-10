@@ -66,8 +66,8 @@ a {
 /*HEADER SECTON*/
 
 header{
-    max-width: 1440px;
-    margin: 3rem auto;
+    /* max-width: 1440px; */
+    margin: 1.5rem auto;
     width: 90%;
 }
 .nav_items{
@@ -206,7 +206,7 @@ ul{
     
     
     .cont{
-        width: 40rem;
+        max-width: 40rem;
         margin: 4rem auto ;
         padding-top: 3rem;
     }
@@ -234,9 +234,9 @@ ul{
 
 /* Main */
 main{
-    max-width: 1440px;
+    
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 hr{
     width: 100%;
@@ -244,14 +244,17 @@ hr{
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .company-prospect{
+    max-width: 1440px;
+    padding-inline: 3%;
     text-align: left;
-    margin: 4rem;
-    max-width: 746px;
-    margin-bottom: 302px;
+    margin: 4rem auto;
+    /* max-width: 746px; */
+    margin-bottom: 100px;
     background-repeat: no-repeat;
     background-position: right;
-    
-    
+}
+.company-prospect p{
+    max-width: 746px;
 }
 
 
@@ -283,7 +286,7 @@ hr{
 
 
 .cont{
-    width: 80rem;
+    max-width: 80rem;
     margin: 4rem auto ;
     padding-block: 3rem;
 }
@@ -349,10 +352,41 @@ margin-bottom: 2rem;
     line-height: 48px;
     text-align: left;
 }
+.leadly-more{
+    background-color: #ebecec;
+}
+.leadly-extras{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-inline: 3%;
+    padding-block: 5rem;
+    gap: 1rem;
+    
+}
+.leadly-extra{
+    max-width: 350px;
+    justify-items: flex-start;
+}
+.leadly-extra *{
+    margin-bottom: 1.2rem;
+}
+.leadly-extra a{
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+    gap: 5px;
+}
+.leadly-extra h3{
+    font-size: 18px;
+}
 
 /* FOOTER */
 footer{
-    padding: 8rem 8rem;
+    /* padding: 8rem 8rem; */
+    padding-inline: 2%;
     max-width: 1440px;
     margin: 4rem auto;
     display: flex;
@@ -466,6 +500,7 @@ footer img[src*='telegram']{
     }
     .company-prospect > p{
         font-size: 1.125rem;
+        text-align: justify;
     }
     .company-prospect{
         margin: 2rem auto;

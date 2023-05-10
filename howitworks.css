@@ -60,7 +60,7 @@ a {
 /*HEADER SECTON*/
 
 header{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 3rem auto;
     width: 90%;
 }
@@ -194,10 +194,56 @@ ul{
 }
 
 /* Main */
+
+/* ANIMATION */
+
+iframe {
+    width: 100%;
+    margin-right: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+.move{
+    position: absolute;
+    z-index: -1;
+    right: 10%;
+}
+.move h1 {
+    font-family: 'Poppins';
+    font-size: 2.3rem;
+    margin-top: 3em;
+    margin-bottom: .3em;
+    color: #004AAD;
+}
+
+.move p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.move h1,
+.move p {
+    text-align: right;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 1220px) {
+    .move{
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+    
+}
 main{
     max-width: 1440px;
     margin: 0 auto;
     width: 90%;
+    /* position: relative; */
+    z-index: 99;
    
 }
 hr{
@@ -250,7 +296,7 @@ margin-left: 4rem;
 }
 */
 .MR{
-     margin-bottom: 10rem;
+     margin-bottom: 8rem;
 } 
 
 .wbackground{

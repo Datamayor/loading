@@ -58,8 +58,8 @@ a {
 /*HEADER SECTON*/
 
 header{
-    max-width: 1440px;
-    margin: 3rem auto;
+    /* max-width: 1440px; */
+    margin: 1.5rem auto;
     width: 90%;
 }
 .nav_items{
@@ -192,8 +192,12 @@ ul{
         background: url("Images/close-fill.svg") no-repeat;
     }
 }
+.body{
+    background-color: #ebecec;
+}
 
 /* Main */
+
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -210,13 +214,14 @@ hr{
     margin-bottom: 5rem;
 }
 .company-prospect{
+    
     display: flex;
     justify-content: center;
     gap: 10rem;
     width: 100%;
     text-align: left;
-    margin: 4rem ;
-    margin-bottom: 102px;
+    /* margin: 4rem ;
+    margin-bottom: 102px; */
     
     
 }
@@ -333,12 +338,13 @@ margin-bottom: 2rem;
 
 /* FOOTER */
 footer{
-    margin: 4rem auto;
+    margin: 3rem auto;
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    /* gap: 10px; */
+    padding-inline: 2%;
 }
 #top{
     margin-bottom: 22px;
