@@ -125,7 +125,7 @@ ul{
     /* justify-content: space-between;
     flex: 2; */
     max-width: 900px;
-    
+
 }
 
 
@@ -909,7 +909,7 @@ img[src*=str]{
     border-radius: 20px;
 }
 .leadly-more{
-    background-color: #ffffff;
+    background-color: #ebecec;
 }
 .leadly-extras{
     max-width: 1440px;
@@ -966,6 +966,12 @@ footer{
     color: #4E6269;
     max-width: 170px;
     
+}
+.leader h3{
+    font-size: 22px;
+    line-height: 33px;
+    color: #001117;
+    ;
 }
 .leader input{
     padding: 18px;
