@@ -202,37 +202,37 @@ ul{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    animation: animate 10s linear infinite;
+    animation: animate 7s linear infinite;
   }
   .wrapper img{
     position: absolute;
     bottom: -5px;
     z-index: -2;
-    animation: animate 10s linear infinite;
+    animation: animate 7s linear infinite;
   }
   .wrapper span:nth-child(1){
     left: 0;
     animation-delay: .6s;
     background-color: #FFDC60;
   }
-  .wrapper span:nth-child(2){
+   /* .wrapper span:nth-child(2){
     left: 10%;
     animation-delay: 3s;
     background-color: #0064E9;
-  }
+  }  */
   .wrapper span:nth-child(3){
     left: 20%;
-    animation-delay: 2s;
+    animation-delay: 9s;
     background-color: #0064E9;
-  }
+  } 
   .wrapper span:nth-child(4){
     left: 30%;
-    animation-delay: 5s;
+    animation-delay: 10s;
     background-color: #0064E9;
   }
   .wrapper span:nth-child(5){
     left: 40%;
-    animation-delay: 1s;
+    animation-delay: 5s;
     background-color: #FFDC60;
   }
   .wrapper span:nth-child(6){
@@ -240,7 +240,7 @@ ul{
     animation-delay: 7s;
     background-color: #FFDC60;
   }
-  .wrapper span:nth-child(7){
+  /* .wrapper span:nth-child(7){
     left: 60%;
     animation-delay: 6s;
     background-color: #FFDC60;
@@ -249,15 +249,15 @@ ul{
     left: 70%;
     animation-delay: 8s;
     background-color: #0064E9;
-  }
+  } */
   .wrapper span:nth-child(9){
     left: 80%;
     animation-delay: 9s;
     background-color: #FFDC60;
-  }
+  } 
   .wrapper span:nth-child(10){
     left: 90%;
-    animation-delay: 4s;
+    animation-delay: 120s;
     background-color: #0064E9;
   }
   /* .wrapper img[src*="settings"]{
@@ -907,6 +907,37 @@ img[src*=str]{
     margin: 2rem auto;
     padding: 1rem;
     border-radius: 20px;
+}
+.leadly-more{
+    background-color: #ffffff;
+}
+.leadly-extras{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-inline: 3%;
+    padding-block: 5rem;
+    gap: 6rem;
+    margin-bottom: 1rem;
+    
+}
+.leadly-extra{
+    max-width: 350px;
+    justify-items: flex-start;
+}
+.leadly-extra *{
+    margin-bottom: 1.2rem;
+}
+.leadly-extra a{
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+    gap: 5px;
+}
+.leadly-extra h3{
+    font-size: 18px;
 }
 
 /* FOOTER */

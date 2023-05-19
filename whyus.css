@@ -270,7 +270,7 @@ border-radius: 6px;
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
-    /* height: 50vh; */
+    padding: 0 4rem;
     padding-block: 2rem;
  
 }

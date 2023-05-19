@@ -219,6 +219,7 @@ hr{
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
     background-size: cover;
+    padding: 0 4rem;
     padding-block: 2rem;
 }
 

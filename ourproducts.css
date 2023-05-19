@@ -281,6 +281,7 @@ img[src*=str]{
 }
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+    padding: 0 4rem;
     padding-block: 2rem;
     /* background-size: cover;
     height: 50vh;
