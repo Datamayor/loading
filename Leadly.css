@@ -15,14 +15,14 @@
 h3{
     font-weight: 700;
     font-size: 1rem;
-    color: #004AAD;
+    color: #0064E9;
     padding-bottom: 8px;
 }
 
-#Leadly_logo img{
+/* #Leadly_logo img{
     width: 79px;
     height: 79px;
-}
+} */
 h2{
     font-weight: 900;
     font-size: 2rem;
@@ -60,7 +60,7 @@ a {
 header{
     /* max-width: 1440px; */
     margin: 2rem auto;
-    width: 95%;
+    width: 90%;
 }
 .nav_items{
     display: flex;
@@ -99,38 +99,38 @@ li a:hover::after{
 
 button {
     color: #FFFFFF;
-    background-color: #004AAD;
+    background-color: #0064E9;
     padding: 1.125rem 2.5rem ;
     border: none;
     border-radius: 0.25rem;
 
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.375rem;
     cursor: pointer;
 }
 
 button:hover{
-    color: #004AAD;
+    color: #0064E9;
     background-color: #FFFFFF;
-    border: 1px solid #004AAD;
+    border: 1px solid #0064E9;
     transition: 1s;
 }
 #type{
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 ul{
     align-items: center;
-    justify-content: space-between;
-    flex: 2;
+    /* justify-content: space-between;
+    flex: 2; */
     max-width: 900px;
 }
 
 
-#reg{
+/* #reg{
     max-width: 238px;
-}
+} */
 .mobile-nav-toggle{
     display: none;
 }
@@ -380,7 +380,7 @@ ul{
     align-items: center;
 }
 .info p{
-    font-weight: 700;
+    font-weight: 400;
     font-family: Poppins;
     font-size: 1.375rem;
 }
@@ -403,11 +403,12 @@ ul{
 }
 .section-b{
     position: relative;
-    margin: 1rem  auto;
+    margin: 0rem  auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+    margin-top: 1rem;
     
     border-radius: 1.25rem;
     max-width: 1440px;
@@ -423,8 +424,8 @@ ul{
 .first{
     line-height: 24px;
     max-width: 238px;
-    height: 300px;
-    padding: 1.5rem;
+    height: 252px;
+    padding: 1rem;
     background-color: #FFFFFF;
     border-radius: 1.25rem;
     align-items: center;
@@ -442,7 +443,7 @@ ul{
     padding-right: 1.5rem;
 }
 .plus{
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     box-shadow: 38px 36px 90px #D9E1F4;
     
 }
@@ -453,7 +454,7 @@ ul{
 }
 #Left{
     display: flex;
-    padding-block: 8%;
+    padding-block: 5%;
     
 }
 /*#Left {
@@ -480,7 +481,49 @@ ul{
     padding-bottom: 20px;
     max-width: 556px;
 }
-
+/* ANIMATION SECTION */
+.slide-container{
+    background: white;
+}
+.slides{
+    max-width: 1440px;
+    padding-block: 1% 2%;
+    display: block;
+    margin: auto;
+}
+.slides h3{
+    margin-left: 5rem;
+    margin-bottom: 2%;
+    font-weight: 700;
+    font-size: 24px;
+    line-break: 36px;
+    letter-spacing: 0.05em;
+}
+.slides #logos{
+    white-space: nowrap;
+    overflow: hidden;
+}
+#logos:hover .trusted-img{
+    animation-play-state: paused;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.partners{
+    margin-inline-start: 10%;
+}
+.trusted-img{
+    display: inline-block;
+    animation: 9.4s slide infinite linear;
+}
+.trusted-img img{
+    margin: 0 30px;
+}
 
 
 /* SECTION C PROSPECTTNG / PROSPECTING PLUS / BOOK A CALL & QUALIFIED LEADS */
@@ -563,25 +606,43 @@ img[src*=str]{
     position: relative;
 }
 .section-d {
-    
+    position: relative;
     margin-block: auto;
-    margin-bottom: 90px;
+    margin: auto;
+    max-width: 1440px;
+    /* margin-bottom: 90px; */
     
-    padding: 3.5rem 1rem 10.81rem 1rem;
+    padding: 3.5rem 1rem 6.25rem 1rem;
     
     
 }
-.section-d > img{
+.section-d img[src*='Pattern-main']{
+    position: absolute;
+    z-index: 1;
+    /* align-self: flex-start; */
+    /* left: 0px; */
+    right: 0px;
+    top: 0px;
+    max-width: 100%;
+}
+/* .section-d > img{
     position: absolute;
     z-index: -1;
     max-width: 100%;
-}
+} */
 .pricing h3,
 .pricing h2{
     text-align: center;
 }
+.pricing,
+.toggle-container,
+.based,
+.customized{
+    position: relative;
+    z-index: 4;
+}
 .pricing p{
-    max-width: 555px;
+    max-width: 650px;
     color: rgba(24, 16, 89, 0.68);
     text-align: center;
     justify-content: center;
@@ -650,6 +711,126 @@ img[src*=str]{
     color: white;
 
 }
+/* BOOK A CALL */
+
+.wbackground{
+    background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+    padding: 2rem;
+    /* background-size: cover;
+    height: 50vh;
+    margin-bottom: 8rem; */
+ 
+}
+
+
+
+.cont{
+    max-width: 1440px;
+    margin: 0rem auto ;
+    padding-block: 3rem;
+}
+
+.cont p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+/* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #FFDC60;
+    margin-bottom: 1rem;
+}
+
+.cont h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 56px;
+    max-width: 684px;
+    line-height: 84px;
+
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+.inbox{
+    position: relative;
+    top: 01.3rem;
+    width: 64px;
+    margin: 0.2rem  1.4rem;
+    margin-bottom: 0rem;
+}
+.cont button{
+
+        color: #004AAD;
+        background-color: #ffffff;
+        padding: 1rem 2.5rem ;
+        border: none;
+        border-radius: 0.25rem;
+        
+
+    
+    
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .cont button:hover{
+        color: #ffffff;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        /* box-shadow: inset 0 0 0.25em 0 #004AAD,
+        0 0 0.5em 0 #004AAD; */
+        transition: 1s;
+    }
+.company-prospect > p{
+    padding-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: left;
+}
+
+
+/* LEADLY-MORE */
+
+.leadly-more{
+    background-color: #ebecec;
+}
+.leadly-extras{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-inline: 3%;
+    padding-block: 5rem;
+    gap: 3rem;
+    
+}
+.leadly-extra{
+    max-width: 350px;
+    justify-items: flex-start;
+}
+.leadly-extra *{
+    margin-bottom: 1.2rem;
+}
+.leadly-extra a{
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+    gap: 5px;
+}
+.leadly-extra h3{
+    font-size: 18px;
+}
+
+
 
 /* SECTION  TESTIMONIALS*/
 /* .section-E{
@@ -733,20 +914,23 @@ footer{
     padding-inline: 5%;
     margin: 4rem auto;
     display: flex;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
 }
-#top{
-    margin-bottom: 22px;
-    width: 80px;
-    height: 80px;
+.logo-footerr{
+    margin-bottom: 30px;
 }
+#top{
+    margin-bottom: 25px;
+}
+
 
 
 .leader a,
 .leader p {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
     color: #4E6269;
     max-width: 170px;
     
@@ -797,10 +981,10 @@ footer img[src*='telegram']{
     #section-a .wrapper{
         display: none;
     }
-    #Leadly_logo img{
+    /* #Leadly_logo img{
         width: 50px;
         height: 50px;
-    }
+    } */
 
     #Leadly-Solution button{
         padding: 1rem 2.75rem;
@@ -821,10 +1005,10 @@ footer img[src*='telegram']{
         
     }
     .business::first-line{
-    color: #0BCFAC;
+    /* color: #0BCFAC; */
     font-weight: 700;
     font-family: poppins;
-}
+    }
 
     
     
@@ -886,6 +1070,17 @@ footer img[src*='telegram']{
     .section-b-left{
         justify-content: center;
     }
+    /* SLIDES */
+    .slides h3{
+        font-size: 1rem;
+        margin-left: 0rem;
+        padding-inline: 2%;
+    }
+    .trusted-img img{
+        height: 25px;
+        /* width: 100%; */
+        margin: 0 14px;
+    }
 
     /* SECTION C */
     .section-c {
@@ -927,10 +1122,40 @@ footer img[src*='telegram']{
         height: 30px;
     }
 
+    .wbackground{
+        background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
+        background-size: cover;
+ 
+        padding-block: 2rem;
+    }
+    
+    
+    
+    .cont{
+        /* width: 20rem; */
+        margin: 1rem auto ;
+      
+    }
+    
+    .cont p {
+        margin-top: 0.2rem;
+    font-size: 12px;
+    line-height: 33px;
+
+    margin-bottom: 2rem;
+    }
+    
+    .cont h1{
+    font-size: 20px;
+    line-height: 44px;
+    width: 14rem;
+    margin-bottom: 1rem;
+    }
+
     
     footer{
         padding: 0.1rem 1rem;
-        display: block;
+        /* display: block; */
         margin: 1rem auto;
         width: 100%;
         padding: auto;
