@@ -132,7 +132,7 @@ ul{
     align-items: center;
     justify-content: space-between;
     flex: 2;
-    max-width: 900px;
+    max-width: 30px;
 }
 
 
@@ -173,7 +173,7 @@ ul{
         /* position: relative; */
         background: url("Images/menu-line.svg") no-repeat;
         border: 0;
-        width: 1.3125rem;
+        width: 1\.3125rem;
         height: 1.3125rem;
         aspect-ratio: 1;
         top: 3.5rem;
