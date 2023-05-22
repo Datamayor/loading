@@ -496,8 +496,8 @@ ul{
     margin-left: 5rem;
     margin-bottom: 2%;
     font-weight: 700;
-    font-size: 24px;
-    line-break: 36px;
+    font-size: 1rem;
+    line-height: 36px;
     letter-spacing: 0.05em;
 }
 .slides #logos{
@@ -703,7 +703,7 @@ img[src*=str]{
 .customized {
     max-width: 368px ;
     color: white;
-    background: #004AAD;
+    background: #0064E9;
     border-radius: 6px;
     padding: 20px 20px 76px 20px;
     margin: 0 auto;
@@ -1166,6 +1166,11 @@ footer img[src*='telegram']{
  
         padding-block: 2rem;
     }
+        /* footer */
+.leader h3{
+    font-size: 16px;
+}
+/* footer ends */
     
     
     
@@ -1177,17 +1182,17 @@ footer img[src*='telegram']{
     
     .cont p {
         margin-top: 0.2rem;
-    font-size: 12px;
-    line-height: 33px;
+        font-size: 12px;
+        line-height: 33px;
 
-    margin-bottom: 2rem;
+        margin-bottom: 2rem;
     }
     
     .cont h1{
-    font-size: 20px;
-    line-height: 44px;
-    width: 14rem;
-    margin-bottom: 1rem;
+        font-size: 20px;
+        line-height: 44px;
+        width: 14rem;
+        margin-bottom: 1rem;
     }
 
     
