@@ -202,6 +202,7 @@ ul{
         background: url("Images/close-fill.svg") no-repeat;
     }
 
+
 }
 
 /* Main */
@@ -228,20 +229,27 @@ hr{
 .cont{
     max-width: 1440px;
     margin: 0rem auto ;
-    padding-block: 3rem;
+     display: flex;
+    justify-content: space-between;
+    padding-block: 4rem;
+    padding: 4rem;
 }
 
-.cont p {
+
+
+.cont a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
 /* identical to box height */
 
     letter-spacing: 0.05em;
 
-    color: #FFDC60;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -343,12 +351,6 @@ line-height: 84px;
 /* FOOTER */
 
 
-
-#top{
-    margin-bottom: 22px;
-        width: 79px;
-        height: 79px;
-}
 footer{
     max-width: 1440px;
     padding-inline: 5%;
@@ -359,7 +361,7 @@ footer{
     flex-wrap: wrap;
     gap: 10px;
 }
-.logo-footerr{
+.logo-footer{
     margin-bottom: 30px;
 }
 #top{
@@ -387,11 +389,11 @@ footer{
     border: none;
     
 }
-footer img[src*='telegram']{
+/* footer img[src*='telegram']{
     align-items: center;
     justify-content: center;
     
-}
+} */
 .leader .be-social-section{
     display: flex;
     gap: 1rem;
@@ -400,8 +402,41 @@ footer img[src*='telegram']{
     display: none;
 }
 
+@media screen and (max-width: 1244px){
+    .call{
+        width: 30px;
+    }
 
-@media (max-width: 1024px){
+
+        
+.cont a {
+    margin-top: 0.2rem;
+font-size: 16px;
+line-height: 33px;
+
+margin-bottom: 2rem;
+}
+
+    
+}
+
+@media screen and (max-width: 870px){
+    .cont{
+        margin: auto ;
+        padding: 0;
+        display: block; 
+        padding: 4rem;
+    }
+
+    .cont a {
+        margin-top: 0.2rem;
+    font-size: 19px;
+    line-height: 63px;
+    
+    margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 1024px){
     .flex a{
         width: 600px;
         line-height: 50px;
@@ -443,17 +478,28 @@ footer img[src*='telegram']{
     
     
     .cont{
-        width: 40rem;
+        width: 50rem;
         margin: auto ;
-    
+        padding: 0;
+       
+       
     }
     
-    .cont p {
+    .call {
+       width: 30px;
+    }
+    .cont a {
         margin-top: 0.2rem;
-    font-size: 12px;
-    line-height: 33px;
+      
+    font-size: 17px;
 
-    margin-bottom: 2rem;
+
+
+    
+    margin: 4rem auto;
+  
+    flex-wrap: wrap;
+
     }
     
     .cont h1{
@@ -527,6 +573,10 @@ footer img[src*='telegram']{
             flex-direction: column;
             
         }
+
+        .leader h3{
+            font-size: 16px;
+        }
         .s-handles > p{
             display: contents;
         }
@@ -543,13 +593,19 @@ footer img[src*='telegram']{
             background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
             background-size: cover;
             padding-block: 2rem;
+             display: flex;
         }
         
         
         
         .cont{
-            width: 20rem;
+            width: 40rem;
             margin: auto ;
+        }
+
+        img[src*='call']{
+            width: 9px;
+            height: 2px;
         }
         
         .cont p {
