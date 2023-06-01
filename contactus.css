@@ -290,10 +290,10 @@ main{
     }
 .company-prospect{
     
-    margin: 4rem auto 0;
+    margin: auto 0;
     width: 100%;
     border-radius: 20px;
-    padding-block: 100px;
+    padding-block: 40px;
     
 }
 .flex{
