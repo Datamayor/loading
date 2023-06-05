@@ -73,8 +73,8 @@ header{
 
 #nav_btn{
     display: flex;
+    justify-content: right;
     gap: 3rem;
-
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 500;
@@ -82,7 +82,7 @@ header{
 }
 .nav-links{
     display: flex;
-    gap: 0.3rem;
+
 }
 
 li a::after{
