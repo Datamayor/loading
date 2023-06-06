@@ -411,6 +411,8 @@ line-height: 33px;
 margin-bottom: 2rem;
 }
 
+
+
     
 }
 
@@ -429,6 +431,8 @@ margin-bottom: 2rem;
     
     margin-bottom: 2rem;
     }
+
+
 }
 @media screen and (max-width: 1024px){
     .flex a{
@@ -507,6 +511,9 @@ margin-bottom: 2rem;
             padding: 1.25rem 1.5rem ;
            
         }
+
+        
+
     }
 
     @media screen and (max-width: 650px) {
@@ -622,14 +629,16 @@ margin-bottom: 2rem;
                 font-size: 4px;
                
             }
+
+
     
-            footer{
-                padding: 0.1rem 3rem;
-                display: block;
-                margin: 2rem auto;
-                width: 100%;
-                padding: auto;
-            }
+             footer{
+        padding: 0.1rem 1rem;
+        /* display: block; */
+        margin: 1rem auto;
+        width: 100%;
+        padding: auto;
+    }
     
             .inbox{
                 text-align: left;
