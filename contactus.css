@@ -26,8 +26,8 @@ letter-spacing: 0.05em;
 color: #0064E9;
 }
 #Leadly_logo img{
-    width: 79px;
-    height: 79px;
+    width: 120px;
+    height: 120px;
 }
 h3{
     font-weight: 700;
@@ -114,8 +114,8 @@ li a:hover::after{
 
 button{
     color: #FFFFFF;
-    background-color: #004AAD;
-    padding: 1.35rem 2.5rem ;
+    background-color: #0064E9;
+    padding: 1.25rem 2.5rem ;
     border: none;
     border-radius: 0.25rem;
     justify-content: center;
@@ -140,8 +140,6 @@ button:hover{
 }
 ul{
     align-items: center;
-    justify-content: space-between;
-    flex: 2;
     max-width: 900px;
 }
 
@@ -202,6 +200,7 @@ ul{
         background: url("Images/close-fill.svg") no-repeat;
     }
 
+
 }
 
 /* Main */
@@ -210,63 +209,70 @@ main{
     margin: 0 auto;
     width: 90%;
 }
-hr{
-    width: 100%;
-    border: 0.5px solid #FFFFFF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
+
 
 .wbackground{
     background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
-    background-size: cover;
-    padding: 0 4rem;
-    padding-block: 2rem;
+    padding: 2rem;
+
+ 
 }
 
 
 
 .cont{
-    width: 60rem;
-    margin: 4rem auto ;
-    padding-top: 3rem;
+    max-width: 1440px;
+    margin: 0rem auto ;
+     display: flex;
+    justify-content: space-between;
+    padding-block: 4rem;
+    padding: 4rem;
 }
 
-.cont p {
-    margin-top: 1rem;
+
+
+.cont a {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
 /* identical to box height */
 
-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
 
-color: #FFDC60;
-margin-bottom: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 .cont h1{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 84px;
-width: 48rem;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 56px;
+    max-width: 684px;
+    line-height: 84px;
 
-color: #FFFFFF;
-margin-bottom: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
 }
-
+.inbox{
+    position: relative;
+    top: 01.3rem;
+    width: 64px;
+    margin: 0.2rem  1.4rem;
+    margin-bottom: 0rem;
+}
 .cont button{
 
         color: #004AAD;
         background-color: #ffffff;
-        padding: 1.75rem 2.5rem ;
+        padding: 1rem 2.5rem ;
         border: none;
         border-radius: 0.25rem;
-        justify-content: center;
-        align-items: center;
+        
 
     
     
@@ -275,21 +281,19 @@ margin-bottom: 2rem;
         cursor: pointer;
     }
     .cont button:hover{
-        color: #004AAD;
-        background-color: #004AAD;
+        color: #ffffff;
+        background-color: transparent;
         border: 1px solid #ffffff;
         /* box-shadow: inset 0 0 0.25em 0 #004AAD,
         0 0 0.5em 0 #004AAD; */
         transition: 1s;
     }
-
 .company-prospect{
     
-    margin: 4rem auto 0;
+    margin: auto 0;
     width: 100%;
-    background: #F1F4FB;
     border-radius: 20px;
-    padding-block: 100px;
+    padding-block: 40px;
     
 }
 .flex{
@@ -339,25 +343,39 @@ line-height: 84px;
 }
 
 /* FOOTER */
+
+
 footer{
-    padding: 4rem 8rem;
+    max-width: 1440px;
+    padding-inline: 5%;
     margin: 4rem auto;
     display: flex;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
 }
-#top{
-    margin-bottom: 22px;
-        width: 79px;
-        height: 79px;
+.logo-footer{
+    margin-bottom: 30px;
 }
+#top{
+    margin-bottom: 25px;
+}
+
+
+
 .leader a,
 .leader p {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
     color: #4E6269;
-    max-width: 211px;
+    max-width: 170px;
     
+}
+.leader h3{
+    font-size: 22px;
+    line-height: 33px;
+    color: #001117;
+    ;
 }
 .leader input{
     padding: 18px;
@@ -365,17 +383,58 @@ footer{
     border: none;
     
 }
-footer img[src*='telegram']{
+/* footer img[src*='telegram']{
     align-items: center;
     justify-content: center;
     
-}
+} */
 .leader .be-social-section{
     display: flex;
     gap: 1rem;
 }
+.s-handles > p{
+    display: none;
+}
 
-@media (max-width: 1024px){
+@media screen and (max-width: 1244px){
+    .call{
+        width: 30px;
+    }
+
+
+        
+.cont a {
+    margin-top: 0.2rem;
+font-size: 16px;
+line-height: 33px;
+
+margin-bottom: 2rem;
+}
+
+
+
+    
+}
+
+@media screen and (max-width: 870px){
+    .cont{
+        margin: auto ;
+        padding: 0;
+        display: block; 
+        padding: 4rem;
+    }
+
+    .cont a {
+        margin-top: 0.2rem;
+    font-size: 19px;
+    line-height: 63px;
+    
+    margin-bottom: 2rem;
+    }
+
+
+}
+@media screen and (max-width: 1024px){
     .flex a{
         width: 600px;
         line-height: 50px;
@@ -417,17 +476,28 @@ footer img[src*='telegram']{
     
     
     .cont{
-        width: 40rem;
+        width: 50rem;
         margin: auto ;
-    
+        padding: 0;
+       
+       
     }
     
-    .cont p {
+    .call {
+       width: 30px;
+    }
+    .cont a {
         margin-top: 0.2rem;
-    font-size: 12px;
-    line-height: 33px;
+      
+    font-size: 17px;
 
-    margin-bottom: 2rem;
+
+
+    
+    margin: 4rem auto;
+  
+    flex-wrap: wrap;
+
     }
     
     .cont h1{
@@ -441,6 +511,9 @@ footer img[src*='telegram']{
             padding: 1.25rem 1.5rem ;
            
         }
+
+        
+
     }
 
     @media screen and (max-width: 650px) {
@@ -501,6 +574,10 @@ footer img[src*='telegram']{
             flex-direction: column;
             
         }
+
+        .leader h3{
+            font-size: 16px;
+        }
         .s-handles > p{
             display: contents;
         }
@@ -517,13 +594,19 @@ footer img[src*='telegram']{
             background-image: url(./Images/Desktop\ -\ 8\ \(1\).svg);
             background-size: cover;
             padding-block: 2rem;
+             display: flex;
         }
         
         
         
         .cont{
-            width: 20rem;
+            width: 40rem;
             margin: auto ;
+        }
+
+        img[src*='call']{
+            width: 9px;
+            height: 2px;
         }
         
         .cont p {
@@ -546,14 +629,16 @@ footer img[src*='telegram']{
                 font-size: 4px;
                
             }
+
+
     
-            footer{
-                padding: 0.1rem 3rem;
-                display: block;
-                margin: 2rem auto;
-                width: 100%;
-                padding: auto;
-            }
+             footer{
+        padding: 0.1rem 1rem;
+        /* display: block; */
+        margin: 1rem auto;
+        width: 100%;
+        padding: auto;
+    }
     
             .inbox{
                 text-align: left;
