@@ -22,8 +22,8 @@ h3{
     padding-bottom: 8px;
 }
 #Leadly_logo img{
-    width: 120px;
-    height: 120px;
+    width: 126px;
+    height: 34px;
 }
 
 h2{
@@ -41,7 +41,7 @@ html {
     font-weight: 400;
     font-size: 16px;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     color: var(--black);
     
 
@@ -482,9 +482,9 @@ footer{
     .s-handles > p{
         display: contents;
     }
-    img[src*='Leadly']{
-        width: 30px;
-        height: 30px;
+    img[src*='Leadly'] {
+        width: 79px;
+        height: 22px;
     }
     .be-social-section img{
         width: 30px;
